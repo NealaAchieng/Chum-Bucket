@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  background-color: #FCF0C8;
+  padding: 2em 0;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.nav__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 2em;
+}
+.nav__container ul li {
+  cursor: pointer;
+}
+.nav__container ul a {
+  color: #000;
+}
+.nav__container ul__btn {
+  padding: 1em;
+  background-color: #911F27;
+}
+
+.hero {
+  background-image: url(../../../images/3\ Rules\ for\ Setting\ the\ Perfect\ Dinner\ Table\,\ According\ to\ an\ Etiquette\ Expert.jpeg);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.hero h3 {
+  text-align: center;
+  color: #FCF0C8;
+  padding-top: 2em;
+}
+.hero p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-weight: bold;
+  color: #FCF0C8;
+  padding: 10em 0;
+}
+
+.hero__img div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.hero__img div__img {
+  border: 50px;
+}
+.hero__img div--h2 {
+  text-align: center;
+}
