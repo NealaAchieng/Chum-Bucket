@@ -1,3 +1,9 @@
 @use "./utilities/base";
+
 @use "./pages/contact/contact";
 // @use "./pages/menu/";
+
+@use "./pages/layout/nav";
+@use "./pages/home/hero";
+@use "./pages/home/showcase";
+
