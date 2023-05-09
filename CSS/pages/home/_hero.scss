@@ -23,15 +23,6 @@
   }
 
 }
-.hero__img{
-    div{
-        @include flex(space-between,center);
-       &__img{
-            border: 50px;
-        }
-        &--h2{
-            text-align: center;
-        }
-    }
     
-}
+    
+
