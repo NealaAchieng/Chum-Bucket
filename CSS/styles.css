@@ -16,3 +16,51 @@ ul {
 a {
   text-decoration: none;
 }
+
+.contact__hero {
+  background-image: url("../../../images/contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 80vh;
+}
+.contact__details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.contact__details > div {
+  flex: 1;
+}
+.contact__contact-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.contact__form {
+  padding: 3em;
+}
+.contact__map {
+  width: 100vw;
+  height: 40vh;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  padding: 1em;
+  margin-top: 3em;
+  width: 50%;
+}
+
+.btn {
+  padding: 2em;
+  margin: 1rem;
+}
+
+.ul {
+  padding: 2em;
+  margin: 3em;
+}
