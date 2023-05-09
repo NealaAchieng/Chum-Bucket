@@ -1,0 +1,28 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.hero {
+  background-image: url(../../../images/3\ Rules\ for\ Setting\ the\ Perfect\ Dinner\ Table\,\ According\ to\ an\ Etiquette\ Expert.jpeg);
+
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  h3 {
+    text-align: center;
+    color: $cream;
+
+    padding-top: 2em;
+  }
+
+  p {
+    @include flex(space-between, center);
+    font-weight: bold;
+    color: $cream;
+    padding: 10em 0;
+  }
+
+}
+    
+    
+

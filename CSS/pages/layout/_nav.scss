@@ -1,0 +1,24 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.nav {
+  background-color:$cream;
+  padding: 2em 0;
+  &__container {
+    @include flex(space-between, center);
+    ul {
+      @include flex(space-between, center);
+      gap: 2em;
+      li{
+        cursor:pointer;
+      }
+      a {
+        color: $black;
+      }
+      &__btn {
+        padding: 1em;
+        background-color: $maroon;
+      }
+    }
+  }
+}
