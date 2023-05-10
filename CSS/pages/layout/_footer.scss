@@ -1,6 +1,7 @@
 @use"/utilities/variables" as *;
 @use"/utilities/mixins.scss" as*;
 
-.hero{
-    background-image: url(../../images/Delicious\ Group\ Young\ People\ Casual\ Wear\ Stock\ Photo\ 1377054026\ _\ Shutterstock.jpeg);
+.icon{
+    @include flex(flex-end ,center);
+    
 }

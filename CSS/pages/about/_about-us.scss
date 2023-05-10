@@ -1,0 +1,32 @@
+@use "../../utilities/variables"as *;
+@use "../../utilities/mixins"as *;
+@use "../../utilities/base"as *;
+
+body{
+    background-color:$cream;
+}
+.about{
+    &__container{
+        &__flex{
+            @include flex(space-between,center);
+            p{
+            
+            }
+            
+        }
+        &__content{
+            h4{
+                text-align: center;
+            }
+        }
+       &__profiles{
+        @include flex(space-between,center);
+        border: 2px 2px 2px 5px solid $maroon;
+        margin: 2em;
+       } 
+       
+        
+       
+    }
+
+}

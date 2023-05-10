@@ -2,24 +2,28 @@
 @use "../../utilities/variables" as *;
 
 .hero {
-  background-image: url(../../../images/3\ Rules\ for\ Setting\ the\ Perfect\ Dinner\ Table\,\ According\ to\ an\ Etiquette\ Expert.jpeg);
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0.2)),url(../../../images/3\ Rules\ for\ Setting\ the\ Perfect\ Dinner\ Table\,\ According\ to\ an\ Etiquette\ Expert.jpeg);
 
   height: 70vh;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  
   h3 {
     text-align: center;
     color: $cream;
+    border-bottom:2px 2px 5px solid $maroon ;
 
-    padding-top: 2em;
+    padding-top: 8em;
   }
 
   p {
     @include flex(space-between, center);
     font-weight: bold;
     color: $cream;
-    padding: 10em 0;
+    padding: 1em 0;
+    line-height: 2em;
+    font-size: large;
   }
 
 }

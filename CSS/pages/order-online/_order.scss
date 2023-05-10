@@ -1,0 +1,20 @@
+@use"../../utilities/variables"as *;
+@use"../../utilities/mixins"as *;
+@use"../../utilities/base"as*;
+
+.body{
+    background-color: &cream;
+}
+
+.order{
+&__container{
+    &__img{
+        @include flex(space-between, center);
+    }
+    &__btn{
+        background-color:maroon ;
+        color: &white;
+        padding:2em;
+    }
+}
+}
