@@ -15,7 +15,7 @@
         cursor: pointer;
         padding: 1em;
         &:hover:not(:last-child) {
-          background-color: $maroon;
+          // background-color: $maroon;
           a {
             color: $cream;
           }
