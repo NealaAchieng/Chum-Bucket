@@ -100,6 +100,9 @@ textarea {
 .nav__right ul li a {
   color: #000;
 }
+.nav__right ul li i {
+  color: white;
+}
 .nav .btn {
   background-color: #911F27;
   border: none;
@@ -111,6 +114,7 @@ textarea {
 }
 
 .hero {
+  padding-top: 2em;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0)), url(../../../images/3\ Rules\ for\ Setting\ the\ Perfect\ Dinner\ Table\,\ According\ to\ an\ Etiquette\ Expert.jpeg);
   height: 70vh;
   background-repeat: no-repeat;
@@ -121,6 +125,7 @@ textarea {
   text-align: center;
   color: #FCF0C8;
   border-bottom: 2px 2px 5px solid #911F27;
+  margin: 2em 2em;
   padding-top: 8em;
 }
 .hero p {
@@ -133,6 +138,10 @@ textarea {
   padding: 1em 0;
   line-height: 2em;
   font-size: large;
+}
+.hero h2 {
+  text-align: center;
+  color: white;
 }
 
 .showcase h2 {
@@ -222,9 +231,19 @@ textarea {
 }
 
 .footer {
+  padding-top: 1em;
   background-color: #911F27;
   color: white;
-  padding-top: 2em 0;
+}
+.footer p {
+  font-size: larger;
+}
+.footer li {
+  font-size: large;
+}
+.footer h4 {
+  color: black;
+  font-size: 1.5rem;
 }
 .footer__container {
   display: flex;

@@ -3,10 +3,24 @@
 
 
 .footer{
+    padding-top: 1em;
     background-color:$maroon ;
     color:white ;
-    padding-top: 2em 0;
+    
 
+    p{
+        font-size: larger;
+    }
+    li{
+        font-size: large
+    }
+    h4{
+        color: black;
+        font-size: 1.5rem;
+        
+
+        
+    }
     
         &__container{
         @include flex(space-between ,flex-start);
