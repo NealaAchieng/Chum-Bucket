@@ -1,0 +1,44 @@
+@use "../../utilities/mixins" as *;
+.menu {
+  &__container {
+  }
+  &__breakfast {
+    &__container {
+      @include flex(space-between, center);
+      div{
+        @include fit-image;
+        margin-bottom: 5em;
+      }
+      h3{
+      text-align: center;
+      }
+    }
+  }
+  &__lunch{
+    &__container{
+      @include flex(space-between,center);
+
+      div{
+        @include fit-image;
+        margin-bottom: 5em
+      
+      }
+      h3{
+        text-align: center;
+        }
+    } 
+  }
+  &__dinner{
+    &__container{
+      @include flex(space-between,center);
+      div{
+        @include fit-image;
+        margin-top: 2em;
+      }
+      h3{
+        text-align: center;
+        }
+
+    }
+  }
+}

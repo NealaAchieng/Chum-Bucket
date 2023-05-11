@@ -21,7 +21,9 @@ a {
   text-decoration: none;
 }
 
-
+.contact {
+  height: 1px;
+}
 .contact__hero {
   background-image: url("../../../images/contact.jpg");
   background-repeat: no-repeat;
@@ -39,19 +41,6 @@ a {
   flex: 1;
 }
 .contact__contact-us {
-
-.nav {
-  background-color: #FCF0C8;
-  padding: 2em 0;
-}
-.nav__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
-.nav__container ul {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,7 +70,27 @@ textarea {
 .ul {
   padding: 2em;
   margin: 3em;
+}
 
+h1 {
+  display: flex;
+}
+
+.nav {
+  background-color: #FCF0C8;
+  padding: 2em 0;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.nav__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   gap: 2em;
 }
 .nav__container ul li {
@@ -117,19 +126,63 @@ textarea {
   padding: 10em 0;
 }
 
-.showcase h2 {
-  text-align: center;
-  padding: 2em;
-}
-.showcase__container {
+.menu__breakfast__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
-.showcase h3 {
+.menu__breakfast__container div {
+  width: 500px;
+  height: 330px;
+  margin-bottom: 5em;
+}
+.menu__breakfast__container div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.menu__breakfast__container h3 {
   text-align: center;
-  border-radius: 50px;
-  padding-left: 2em 2em;
-
+}
+.menu__lunch__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.menu__lunch__container div {
+  width: 500px;
+  height: 330px;
+  margin-bottom: 5em;
+}
+.menu__lunch__container div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.menu__lunch__container h3 {
+  text-align: center;
+}
+.menu__dinner__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.menu__dinner__container div {
+  width: 500px;
+  height: 330px;
+  margin-top: 2em;
+}
+.menu__dinner__container div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.menu__dinner__container h3 {
+  text-align: center;
 }

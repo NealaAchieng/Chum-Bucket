@@ -7,6 +7,7 @@
     background-size: cover;
     height: 80vh;
   }
+  height: 1px;
   &__details{
     @include flex(center,center);
 
@@ -42,4 +43,8 @@ textarea {
 .ul{
     padding: 2em;
     margin: 3em;
+}
+h1{
+    display: flex;
+    
 }
