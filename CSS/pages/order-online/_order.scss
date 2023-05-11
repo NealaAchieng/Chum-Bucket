@@ -1,20 +1,49 @@
-@use"../../utilities/variables"as *;
-@use"../../utilities/mixins"as *;
-@use"../../utilities/base"as*;
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+@use "../../utilities/base" as *;
 
-.body{
-    background-color: &cream;
-}
+
 
 .order{
 &__container{
+    
     &__img{
         @include flex(space-between, center);
+        flex-wrap: wrap;
+        row-gap: 3em;
+        img{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 600;
     }
     &__btn{
-        background-color:maroon ;
-        color: &white;
-        padding:2em;
+        background-color:$maroon ;
+        color: $white;
+        padding:1em 2em;
+        border-radius: 50px;
+        border: none;
+        
+
     }
+}
+&__details{
+    text-align: center;
+    h4{
+        font-size:2rem ;
+    }
+    p{
+        font-size:1.5rem ;
+        font-weight: bold;
+        margin:.5em 0;
+    }
+}
+&__card{
+
+    padding: 1em;
 }
 }

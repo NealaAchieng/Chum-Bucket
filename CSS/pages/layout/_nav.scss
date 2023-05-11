@@ -3,35 +3,38 @@
 @use "../../../utilities/variables" as *;
 
 .nav {
-  // background-color: $cream;
   &__container {
     @include flex(space-between, center);
-
+    border-bottom: 2px 2px 5px;
+  }
+  &__right {
     ul {
       @include flex(space-between, center);
 
       li {
         cursor: pointer;
-        padding: 0 1em;
+        padding: 1em;
+        &:hover:not(:last-child) {
+          background-color: $maroon;
+          a {
+            color: $cream;
+          }
+        }
 
         a {
           color: $black;
         }
-        btn{
-          background-color: $maroon;
-        }
-      }
-      
-        
-        
-      
-      }
-    }
-
-    &__right{
-      ul{
-        margin: 2em;
       }
     }
   }
 
+  .btn {
+    background-color: $maroon;
+    border: none;
+    padding: 1em;
+    border-radius: 50px;
+    a {
+      color: $cream;
+    }
+  }
+}
