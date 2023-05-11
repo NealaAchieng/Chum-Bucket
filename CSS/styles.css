@@ -225,6 +225,7 @@ button {
 }
 .about__container__content {
   text-align: center;
+  gap: 1em;
 }
 .about__container h1 {
   text-align: center;
