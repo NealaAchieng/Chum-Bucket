@@ -1,7 +1,6 @@
 @use "./utilities/base";
 
 @use "./pages/contact/contact";
-// @use "./pages/menu/";
 
 @use "./pages/layout/nav";
 @use "./pages/home/hero";
@@ -9,4 +8,6 @@
 @use"./pages/about/about-us";
 @use"./pages/order-online/order";
 @use "./pages/layout/footer";
+// @use "./pages/home/showcase";
+@use"./pages/menu/menu";
 
