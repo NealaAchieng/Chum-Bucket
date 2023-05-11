@@ -91,6 +91,9 @@ textarea {
   cursor: pointer;
   padding: 1em;
 }
+.nav__right ul li:hover:not(:last-child) {
+  background-color: #911f27;
+}
 .nav__right ul li:hover:not(:last-child) a {
   color: #fcf0c8;
 }
