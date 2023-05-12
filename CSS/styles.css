@@ -135,10 +135,10 @@ button {
   cursor: pointer;
   padding: 1em;
 }
-.nav__right ul li:hover:not(:last-child) {
+.nav__right ul li:hover:not(:nth-child(5)) {
   background-color: #911f27;
 }
-.nav__right ul li:hover:not(:last-child) a {
+.nav__right ul li:hover:not(:nth-child(5)) a {
   color: #fcf0c8;
 }
 .nav__right ul li a {
