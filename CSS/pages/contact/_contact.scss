@@ -2,11 +2,7 @@
 @use "../../utilities/variables" as *;
 .contact {
   &__hero {
-    background-image: url("../../../images/contact.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 80vh;
+    
     h1{
       color: maroon;
       font-size: 4rem;
@@ -46,6 +42,19 @@
   }
   &__form {
     padding: 3em;
+    @include flex(center, center, column);
+
+    div{
+      width: 50%;
+      input, textarea{
+        width: 100%;
+      }
+      button{
+        margin-top: 1em;
+        display: block;
+        margin: 0 auto;
+      }
+    }
   }
 
   &__map {
