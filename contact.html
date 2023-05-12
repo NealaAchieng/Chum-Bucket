@@ -1,17 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Chum Bucket</title>
-    <link href="CSS/styles.css" rel="stylesheet"/>
-</head>
-<body>
-    <container>
-        <h3>Contact Us</h3>
-        <div></div>
+  <head>
+    <link href="CSS/styles.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact page
+      
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 
-    </container>
-</body>
+    <link href="CSS/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section class="contact">
+      <div class="contact__hero"></div>
+      <div class="container">
+        <div class="nav__container">
+          <div class="nav__left">
+            <img
+              src="images/dish-spoon-knife-icon (1).png"
+              alt=""
+              width="70px"
+            />
+          </div>
+
+          <div>
+            <form class="contact__form">
+              <div>
+                <input type="text" placeholder="Enter your Name"  />
+              </div>
+              <div>
+                <input type="text" placeholder="Enter your email" />
+              </div>
+              <div>
+                <input type="text" placeholder="Enter your Subject" />
+              </div>
+              <div>
+                <textarea placeholder="Enter your message" rows="7" cols="20"></textarea>
+              </div>
+              <div>
+                <button class="btn">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="contact__ul">
+            <ul>
+              <li>The Chum Bucket,</li>
+              <li>Yaya Center</li>
+              <li>P.O BOX 1234,</li>
+              <li>Cell:0115798003</li>
+            </ul>
+            <p>Follow Us</p>
+            <div>
+              <img
+                width="50"
+                src="images/facebook-round-icon.png"
+                alt="facebook"
+              />
+              <img
+                width="50"
+                src="images/twitter-round-icon.png"
+                alt="twitter"
+              />
+              <img
+                width="50"
+                src="images/instagram-round-icon.png"
+                alt="instagram"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact__contact-us">
+      <div>
+        <div class="contact__map">
+          <div class="gmap_canvas">
+            <iframe
+              width="100%"
+              height="100%"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=yaya center&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe
+            ><a href="https://2yu.co">2yu</a><br /><style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 100%;
+                width: 100%;
+              }</style
+            ><a href="https://embedgooglemap.2yu.co/">html embed google map</a
+            ><style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 100%;
+                width: 100%;
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="icon">
+    <h1>Meet Us</h1>
+    <div class="icon-right">
+        <img width="50" src="images/call-icon.png" alt="call"/>
+        <p>0115798003</p>
+    </div>
+    <div class="icon-right">
+        <img width="50" src="images/email-round-solid-icon.png" alt="email"/>
+        <p>chumbucket02@gmail.com</p>
+    </div>
+    <div class="icon-right">
+        <img width="50" src="images/facebook-round-icon.png"alt="facebook"/>
+        <p>@chumbucket.</p>
+    </div>
+    <div class="icon-right">
+        <img width="50" src="images/twitter-round-icon.png" alt="twitter"/>
+        <p>@chumbucket</p>
+    </div>
+</div> -->
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__container__item">
+            <li>
+              <img src="images/instagram-round-icon.png" width="70" />
+              <p>@chum bucket</p>
+            </li>
+            <li>
+              <img src="images/email-round-solid-icon.png" width="65" />
+              <p>chumbucket@gmail.com</p>
+            </li>
+            <li>
+              <img src="images/twitter-round-icon.png" width="70" />
+              <p>@chumbucket</p>
+            </li>
+            <li>
+              <img src="images/facebook-round-icon.png" width="70" />
+              <p>the chum bucket</p>
+            </li>
+            <li>
+              <img src="images/call-icon.png" width="60" />
+              <p>+254 111 254 568</p>
+            </li>
+          </div>
+          <div class="footer__container__item">
+            <ul>
+              <li>The Chum Bucket,</li>
+              <li>Yaya Center</li>
+              <li>P.O BOX 1234,</li>
+              <li>Cell:0115798003</li>
+            </ul>
+          </div>
+          <div>
+            <div class="footer__container__item">
+              <h4>opening hours</h4>
+              <p>24/7</p>
+            </div>
+            <div class="footer__container__item">
+              <h4>quick links</h4>
+              <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Menu</li>
+                <li>Contact</li>
+                <li>0rder online</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

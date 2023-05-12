@@ -1,0 +1,43 @@
+@use "../../utilities/mixins" as *;
+@use "../../../utilities/variables" as *;
+@use "../../../utilities/variables" as *;
+
+.nav {
+  &__container {
+    @include flex(space-between, center);
+    border-bottom: 2px 2px 5px;
+  }
+  &__right {
+    ul {
+      @include flex(space-between, center);
+
+      li {
+        cursor: pointer;
+        padding: 1em;
+        &:hover:not(:last-child) {
+          background-color: $maroon;
+          a {
+            color: $cream;
+          }
+        }
+
+        a {
+          color: $black;
+        }
+        i{
+          color: white;
+        }
+      }
+    }
+  }
+
+  .btn {
+    background-color: $maroon;
+    border: none;
+    padding: 1em;
+    border-radius: 50px;
+    a {
+      color: $cream;
+    }
+  }
+}
