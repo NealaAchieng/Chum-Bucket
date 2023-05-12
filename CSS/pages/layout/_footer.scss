@@ -1,0 +1,39 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+
+.footer{
+    padding-top: 1em;
+    background-color:$maroon ;
+    color:white ;
+    
+
+    p{
+        font-size: larger;
+    }
+    li{
+        font-size: large
+    }
+    h4{
+        color: black;
+        font-size: 1.5rem;
+        
+
+        
+    }
+    
+        &__container{
+        @include flex(space-between ,flex-start);
+        padding: 2em 0;
+        &__item{
+            li{
+                @include flex(flex-start, center);
+                gap: 1em;
+            }
+            img{
+                width: 30px;
+            }
+        }
+
+}
+}

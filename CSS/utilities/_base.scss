@@ -1,5 +1,34 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+=======
+@use "./variables" as *;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:$cream;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+btn{
+    background-color: $light-cream;
+    color: &maroon;
+>>>>>>> af9d5c4c7d21debafdf9ea8cd2e7620468a4395c
 }

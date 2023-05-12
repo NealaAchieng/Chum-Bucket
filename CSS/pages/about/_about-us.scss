@@ -1,0 +1,39 @@
+@use "../../utilities/variables"as *;
+@use "../../utilities/mixins"as *;
+@use "../../utilities/base"as *;
+
+.about{
+    &__container{
+        &__flex{
+            @include flex(space-between,center);
+            
+        }
+        &__content{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            padding: 2em;
+            border:2px 2px 5px solid black
+        }
+        h4{
+            text-align: center
+            
+        }
+        p{
+            line-height: 2em;
+            font-size: 1.2rem
+
+        }
+       &__profiles{
+        @include flex(space-between,center);
+        border: 2px 2px 2px 5px ;
+        margin: 2em;
+        padding-left:2em 1em;
+       } 
+       
+        
+       
+    }
+
+}

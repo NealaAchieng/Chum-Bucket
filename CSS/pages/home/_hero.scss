@@ -1,0 +1,48 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.hero {
+  
+  padding-top: 2em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0.2)),
+  url(../../../images/3\ Rules\ for\ Setting\ the\ Perfect\ Dinner\ Table\,\ According\ to\ an\ Etiquette\ Expert.jpeg);
+  
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+  h3 {
+    text-align: center;
+    color: $cream;
+    border-bottom: 2px 2px 5px solid $maroon;
+    margin: 2em 2em;
+    padding-top: 8em;
+  }
+  
+  p {
+    @include flex(space-between, center);
+      font-weight: bold;
+      color: $cream;
+      padding: 1em 0;
+      line-height: 2em;
+      font-size: large;
+    }
+    h2 {
+      text-align: center;
+      color: white;
+    }
+
+    button{
+      display: block;
+      margin: 0 auto;
+      padding: 2em;
+      background-color:brown;
+      color:white;
+      border-radius: 50px;
+      border: none;
+    }
+  }
+  
+
+

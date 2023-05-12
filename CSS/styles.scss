@@ -1,3 +1,18 @@
 @use "./utilities/base";
+<<<<<<< HEAD
 @use "./pages/layout/nav";
 @use "./pages/home/hero";
+=======
+
+@use "./pages/contact/contact";
+
+@use "./pages/layout/nav";
+@use "./pages/home/hero";
+@use "./pages/home/showcase";
+@use"./pages/about/about-us";
+@use"./pages/order-online/order";
+@use "./pages/layout/footer";
+// @use "./pages/home/showcase";
+@use"./pages/menu/menu";
+
+>>>>>>> af9d5c4c7d21debafdf9ea8cd2e7620468a4395c
