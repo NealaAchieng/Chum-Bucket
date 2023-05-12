@@ -6,7 +6,31 @@
     background-position: center center;
     background-size: cover;
     height: 80vh;
+    h1{
+      color: maroon;
+      font-size: 4rem;
+      text-align: right;
+    }
+    p{
+      font-size: 2rem;
+      text-align: right;
+    }
+    &__ul{
+      padding: 7em;
+      margin:10em;
+    }
+    &__container{
+      @include flex(center, center);
+      &>div{
+        flex: 1;
+      }
+      form{
+        flex: 1;
+      }
+    }
   }
+
+  
   height: 1px;
   &__details{
     @include flex(center,center);
@@ -27,6 +51,7 @@
     width: 100vw;
     height: 40vh;
   }
+  
 }
 input[type="text"],
 input[type="email"],
@@ -43,8 +68,14 @@ textarea {
 .ul{
     padding: 2em;
     margin: 3em;
-}
-h1{
-    display: flex;
+
     
+}
+button{
+
+  background-color: $maroon;
+  padding: .8em 1em;
+  border: none;
+  color: $cream;
+  cursor: pointer;
 }
