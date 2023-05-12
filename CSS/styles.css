@@ -21,13 +21,36 @@ a {
   text-decoration: none;
 }
 
-
+.contact {
+  height: 1px;
+}
 .contact__hero {
   background-image: url("../../../images/contact.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 80vh;
+}
+.contact__hero h1 {
+  color: maroon;
+  font-size: 4rem;
+  text-align: right;
+}
+.contact__hero__ul {
+  padding: 7em;
+  margin: 10em;
+}
+.contact__hero__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.contact__hero__container > div {
+  flex: 1;
+}
+.contact__hero__container form {
+  flex: 1;
 }
 .contact__details {
   display: flex;
@@ -39,19 +62,6 @@ a {
   flex: 1;
 }
 .contact__contact-us {
-
-.nav {
-  background-color: #FCF0C8;
-  padding: 2em 0;
-}
-.nav__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
-.nav__container ul {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,7 +91,23 @@ textarea {
 .ul {
   padding: 2em;
   margin: 3em;
+}
 
+.nav {
+  background-color: #FCF0C8;
+  padding: 2em 0;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.nav__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   gap: 2em;
 }
 .nav__container ul li {
@@ -117,19 +143,74 @@ textarea {
   padding: 10em 0;
 }
 
-.showcase h2 {
-  text-align: center;
-  padding: 2em;
+.menu__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-.showcase__container {
+.menu__container h1 {
+  color: maroon;
+  font-size: 4rem;
+  text-align: right;
+}
+.menu__container__center {
+  width: 88%;
+  margin: 0 auto;
+}
+.menu__breakfast, .menu__lunch, .menu__dinner {
+  margin-bottom: 3em;
+}
+.menu__breakfast h2, .menu__lunch h2, .menu__dinner h2 {
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+.menu__breakfast__container, .menu__lunch__container, .menu__dinner__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 2em;
 }
-.showcase h3 {
-  text-align: center;
-  border-radius: 50px;
-  padding-left: 2em 2em;
-
+.menu__breakfast__container img, .menu__lunch__container img, .menu__dinner__container img {
+  width: 300px;
+  height: 200px;
+}
+.menu__food {
+  background-color: white;
+}
+.menu__food__name, .menu__food__price {
+  flex: 1;
+}
+.menu__food__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 1em;
+}
+.menu__food__details h3 {
+  margin-bottom: 0.4em;
+}
+.menu__food__name h3 {
+  text-transform: uppercase;
+}
+.menu__food__name p {
+  color: gray;
+}
+.menu__food__price {
+  text-align: right;
+}
+.menu__food__price h3 {
+  color: #911F27;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+.menu__food__price button {
+  background-color: #911F27;
+  padding: 0.8em 1em;
+  border: none;
+  color: #FCF0C8;
+  cursor: pointer;
 }
