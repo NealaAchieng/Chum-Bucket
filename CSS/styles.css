@@ -159,7 +159,7 @@ button {
 
 .hero {
   padding-top: 2em;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0)), url("../../../images/hero-image.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0)), url("https://nealaachieng.github.io/Chum-Bucket/images/hero-image.jpeg");
   height: 70vh;
   background-repeat: no-repeat;
   background-position: center center;
